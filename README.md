@@ -49,3 +49,18 @@ This command will start Vite’s development server and provide you with a local
 Open your project in an editor like [Visual Studio Code](https://code.visualstudio.com/) to start writing TypeScript-based React code.
 
 ---
+
+# Optional Steps: Project Configuration
+1. Add ESLint and Prettier (for linting and code formatting):
+```
+npm install eslint prettier eslint-plugin-react eslint-config-prettier eslint-plugin-prettier --save-dev
+```
+2. Configure TypeScript (if needed):
+   - Open tsconfig.json and configure TypeScript settings as desired.
+3. Add CSS or Tailwind for styling:
+   -  Vite supports CSS frameworks and preprocessors easily. You can install CSS libraries or Tailwind with minimal setup.
+
+---
+  
+## Now you're ready to build your React + TypeScript project with Vite!
+
